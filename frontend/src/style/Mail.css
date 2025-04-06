@@ -1,0 +1,192 @@
+/* App.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fa;
+  }
+  
+  .mail {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Heading with Mail Icon */
+  h1 {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    color: #0a2e5c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .img{
+    width: '32px';
+    height: '32px'
+  }
+  
+  /* Login and Mail Box Containers */
+  .login-form,
+  .mail-list {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Inputs */
+  .login-form input {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 12px;
+    border: 1px solid #c2d3e8;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #f0f4fa;
+    transition: border-color 0.3s ease;
+  }
+  
+  .login-form input:focus {
+    border-color: #0a2e5c;
+    outline: none;
+  }
+  
+  /* Button */
+  .login-form button {
+    background-color: #0a2e5c; /* Dark Blue */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .login-form button:hover {
+    background-color: #144b88;
+    transform: translateY(-1px);
+  }
+  /* Signup.css */
+
+.signup-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+    margin: 40px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .signup-form h2 {
+    color: #0a2e5c;
+    margin-bottom: 25px;
+  }
+  
+  .signup-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .signup-form input {
+    width: 90%;
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #c2d3e8;
+    border-radius: 6px;
+    background-color: #f0f4fa;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .signup-form input:focus {
+    border-color: #0a2e5c;
+    outline: none;
+  }
+  
+  .signup-form label {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #333;
+    width: 90%;
+    margin-top: 15px;
+    justify-content: flex-start;
+  }
+  
+  .signup-form button {
+    background-color: #0a2e5c;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 90%;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .signup-form button:hover {
+    background-color: #144b88;
+    transform: translateY(-1px);
+  }
+  
+  .signup-form p {
+    font-size: 0.9rem;
+    margin-top: 20px;
+    color: #666;
+  }
+  
+  .signup-form a {
+    color: #0a2e5c;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .signup-form a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Mail List Styling */
+  .mail-list h2 {
+    margin-bottom: 20px;
+    color: #0a2e5c;
+  }
+  
+  .mail-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .mail-list li {
+    background: #fefefe;
+    margin: 10px 0;
+    padding: 15px;
+    border-left: 4px solid #0a2e5c;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    text-align: left;
+  }
+  
+  .mail-list li strong {
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 5px;
+    color: #0a2e5c;
+  }
+  
+  .mail-list li p {
+    margin: 0;
+    color: #444;
+  }
+  
