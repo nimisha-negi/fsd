@@ -26,10 +26,7 @@ class Signup extends Component {
       return;
     }
 
-    if (!agree) {
-      alert("You must agree to the terms and conditions");
-      return;
-    }
+    
 
     try {
       const res = await axios.post("http://localhost:3001/signup", this.state);
@@ -44,9 +41,14 @@ class Signup extends Component {
 
   render() {
     return (
-        <div className="mail">
-        <h1><img src="https://img.icons8.com/?size=100&id=nQ4dZIRCI0nW&format=png"/>Mailbox</h1>
+        
+        
       <div className="signup-form">
+        <img
+          src="https://img.icons8.com/?size=100&id=36987&format=png&color=000000"
+          alt="Google logo"
+          className="google-logo"
+        />
         <h2>Create Account</h2>
         <form onSubmit={this.handleSignup}>
           <input
@@ -89,7 +91,7 @@ class Signup extends Component {
         </form>
         <p>Already have an account? <a href="/">Login</a></p>
       </div>
-      </div>
+      
     );
   }
 }
